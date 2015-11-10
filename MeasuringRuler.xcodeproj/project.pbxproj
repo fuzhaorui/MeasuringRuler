@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28993DB31BF1C966000892E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28993DB21BF1C966000892E0 /* main.m */; };
+		28993DB61BF1C966000892E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28993DB51BF1C966000892E0 /* AppDelegate.m */; };
+		28993DB91BF1C966000892E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28993DB81BF1C966000892E0 /* ViewController.m */; };
+		28993DBC1BF1C966000892E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28993DBA1BF1C966000892E0 /* Main.storyboard */; };
+		28993DBE1BF1C966000892E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28993DBD1BF1C966000892E0 /* Assets.xcassets */; };
+		28993DC11BF1C966000892E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28993DBF1BF1C966000892E0 /* LaunchScreen.storyboard */; };
+		28993DCC1BF1C966000892E0 /* MeasuringRulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28993DCB1BF1C966000892E0 /* MeasuringRulerTests.m */; };
+		28993DD71BF1C966000892E0 /* MeasuringRulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28993DD61BF1C966000892E0 /* MeasuringRulerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28993DC81BF1C966000892E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28993DA61BF1C966000892E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28993DAD1BF1C966000892E0;
+			remoteInfo = MeasuringRuler;
+		};
+		28993DD31BF1C966000892E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28993DA61BF1C966000892E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28993DAD1BF1C966000892E0;
+			remoteInfo = MeasuringRuler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28993DAE1BF1C966000892E0 /* MeasuringRuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeasuringRuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28993DB21BF1C966000892E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28993DB41BF1C966000892E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28993DB51BF1C966000892E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28993DB71BF1C966000892E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28993DB81BF1C966000892E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28993DBB1BF1C966000892E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28993DBD1BF1C966000892E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28993DC01BF1C966000892E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28993DC21BF1C966000892E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28993DC71BF1C966000892E0 /* MeasuringRulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeasuringRulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28993DCB1BF1C966000892E0 /* MeasuringRulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeasuringRulerTests.m; sourceTree = "<group>"; };
+		28993DCD1BF1C966000892E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28993DD21BF1C966000892E0 /* MeasuringRulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeasuringRulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28993DD61BF1C966000892E0 /* MeasuringRulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeasuringRulerUITests.m; sourceTree = "<group>"; };
+		28993DD81BF1C966000892E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28993DAB1BF1C966000892E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28993DC41BF1C966000892E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28993DCF1BF1C966000892E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28993DA51BF1C966000892E0 = {
+			isa = PBXGroup;
+			children = (
+				28993DB01BF1C966000892E0 /* MeasuringRuler */,
+				28993DCA1BF1C966000892E0 /* MeasuringRulerTests */,
+				28993DD51BF1C966000892E0 /* MeasuringRulerUITests */,
+				28993DAF1BF1C966000892E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28993DAF1BF1C966000892E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28993DAE1BF1C966000892E0 /* MeasuringRuler.app */,
+				28993DC71BF1C966000892E0 /* MeasuringRulerTests.xctest */,
+				28993DD21BF1C966000892E0 /* MeasuringRulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28993DB01BF1C966000892E0 /* MeasuringRuler */ = {
+			isa = PBXGroup;
+			children = (
+				28993DB41BF1C966000892E0 /* AppDelegate.h */,
+				28993DB51BF1C966000892E0 /* AppDelegate.m */,
+				28993DB71BF1C966000892E0 /* ViewController.h */,
+				28993DB81BF1C966000892E0 /* ViewController.m */,
+				28993DBA1BF1C966000892E0 /* Main.storyboard */,
+				28993DBD1BF1C966000892E0 /* Assets.xcassets */,
+				28993DBF1BF1C966000892E0 /* LaunchScreen.storyboard */,
+				28993DC21BF1C966000892E0 /* Info.plist */,
+				28993DB11BF1C966000892E0 /* Supporting Files */,
+			);
+			path = MeasuringRuler;
+			sourceTree = "<group>";
+		};
+		28993DB11BF1C966000892E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28993DB21BF1C966000892E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28993DCA1BF1C966000892E0 /* MeasuringRulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				28993DCB1BF1C966000892E0 /* MeasuringRulerTests.m */,
+				28993DCD1BF1C966000892E0 /* Info.plist */,
+			);
+			path = MeasuringRulerTests;
+			sourceTree = "<group>";
+		};
+		28993DD51BF1C966000892E0 /* MeasuringRulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28993DD61BF1C966000892E0 /* MeasuringRulerUITests.m */,
+				28993DD81BF1C966000892E0 /* Info.plist */,
+			);
+			path = MeasuringRulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28993DAD1BF1C966000892E0 /* MeasuringRuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28993DDB1BF1C966000892E0 /* Build configuration list for PBXNativeTarget "MeasuringRuler" */;
+			buildPhases = (
+				28993DAA1BF1C966000892E0 /* Sources */,
+				28993DAB1BF1C966000892E0 /* Frameworks */,
+				28993DAC1BF1C966000892E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeasuringRuler;
+			productName = MeasuringRuler;
+			productReference = 28993DAE1BF1C966000892E0 /* MeasuringRuler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28993DC61BF1C966000892E0 /* MeasuringRulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28993DDE1BF1C966000892E0 /* Build configuration list for PBXNativeTarget "MeasuringRulerTests" */;
+			buildPhases = (
+				28993DC31BF1C966000892E0 /* Sources */,
+				28993DC41BF1C966000892E0 /* Frameworks */,
+				28993DC51BF1C966000892E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28993DC91BF1C966000892E0 /* PBXTargetDependency */,
+			);
+			name = MeasuringRulerTests;
+			productName = MeasuringRulerTests;
+			productReference = 28993DC71BF1C966000892E0 /* MeasuringRulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28993DD11BF1C966000892E0 /* MeasuringRulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28993DE11BF1C966000892E0 /* Build configuration list for PBXNativeTarget "MeasuringRulerUITests" */;
+			buildPhases = (
+				28993DCE1BF1C966000892E0 /* Sources */,
+				28993DCF1BF1C966000892E0 /* Frameworks */,
+				28993DD01BF1C966000892E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28993DD41BF1C966000892E0 /* PBXTargetDependency */,
+			);
+			name = MeasuringRulerUITests;
+			productName = MeasuringRulerUITests;
+			productReference = 28993DD21BF1C966000892E0 /* MeasuringRulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28993DA61BF1C966000892E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "IOS-开发机";
+				TargetAttributes = {
+					28993DAD1BF1C966000892E0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					28993DC61BF1C966000892E0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 28993DAD1BF1C966000892E0;
+					};
+					28993DD11BF1C966000892E0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 28993DAD1BF1C966000892E0;
+					};
+				};
+			};
+			buildConfigurationList = 28993DA91BF1C966000892E0 /* Build configuration list for PBXProject "MeasuringRuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28993DA51BF1C966000892E0;
+			productRefGroup = 28993DAF1BF1C966000892E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28993DAD1BF1C966000892E0 /* MeasuringRuler */,
+				28993DC61BF1C966000892E0 /* MeasuringRulerTests */,
+				28993DD11BF1C966000892E0 /* MeasuringRulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28993DAC1BF1C966000892E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28993DC11BF1C966000892E0 /* LaunchScreen.storyboard in Resources */,
+				28993DBE1BF1C966000892E0 /* Assets.xcassets in Resources */,
+				28993DBC1BF1C966000892E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28993DC51BF1C966000892E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28993DD01BF1C966000892E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28993DAA1BF1C966000892E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28993DB91BF1C966000892E0 /* ViewController.m in Sources */,
+				28993DB61BF1C966000892E0 /* AppDelegate.m in Sources */,
+				28993DB31BF1C966000892E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28993DC31BF1C966000892E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28993DCC1BF1C966000892E0 /* MeasuringRulerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28993DCE1BF1C966000892E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28993DD71BF1C966000892E0 /* MeasuringRulerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28993DC91BF1C966000892E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28993DAD1BF1C966000892E0 /* MeasuringRuler */;
+			targetProxy = 28993DC81BF1C966000892E0 /* PBXContainerItemProxy */;
+		};
+		28993DD41BF1C966000892E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28993DAD1BF1C966000892E0 /* MeasuringRuler */;
+			targetProxy = 28993DD31BF1C966000892E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28993DBA1BF1C966000892E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28993DBB1BF1C966000892E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28993DBF1BF1C966000892E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28993DC01BF1C966000892E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28993DD91BF1C966000892E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28993DDA1BF1C966000892E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28993DDC1BF1C966000892E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeasuringRuler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.MeasuringRuler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28993DDD1BF1C966000892E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeasuringRuler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.MeasuringRuler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28993DDF1BF1C966000892E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeasuringRulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.MeasuringRulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeasuringRuler.app/MeasuringRuler";
+			};
+			name = Debug;
+		};
+		28993DE01BF1C966000892E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeasuringRulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.MeasuringRulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeasuringRuler.app/MeasuringRuler";
+			};
+			name = Release;
+		};
+		28993DE21BF1C966000892E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeasuringRulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.MeasuringRulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeasuringRuler;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		28993DE31BF1C966000892E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeasuringRulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.MeasuringRulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeasuringRuler;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28993DA91BF1C966000892E0 /* Build configuration list for PBXProject "MeasuringRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28993DD91BF1C966000892E0 /* Debug */,
+				28993DDA1BF1C966000892E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28993DDB1BF1C966000892E0 /* Build configuration list for PBXNativeTarget "MeasuringRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28993DDC1BF1C966000892E0 /* Debug */,
+				28993DDD1BF1C966000892E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28993DDE1BF1C966000892E0 /* Build configuration list for PBXNativeTarget "MeasuringRulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28993DDF1BF1C966000892E0 /* Debug */,
+				28993DE01BF1C966000892E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28993DE11BF1C966000892E0 /* Build configuration list for PBXNativeTarget "MeasuringRulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28993DE21BF1C966000892E0 /* Debug */,
+				28993DE31BF1C966000892E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28993DA61BF1C966000892E0 /* Project object */;
+}
