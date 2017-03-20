@@ -70,7 +70,7 @@
     }
     _rulerview.delegate=self;
     _rulerview.round = NO;
-    _valueLable.text = @"85";
+    _valueLable.text = @"5.00";
     [self.view  addSubview:_rulerview];
     
 }
