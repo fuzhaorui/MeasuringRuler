@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286CDEC61BF1CB5300A0A813 /* FZRRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 286CDEC51BF1CB5300A0A813 /* FZRRulerView.m */; };
+		286CDEC91BF1CB7400A0A813 /* FZRRulerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 286CDEC81BF1CB7400A0A813 /* FZRRulerScrollView.m */; };
 		28993DB31BF1C966000892E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28993DB21BF1C966000892E0 /* main.m */; };
 		28993DB61BF1C966000892E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28993DB51BF1C966000892E0 /* AppDelegate.m */; };
 		28993DB91BF1C966000892E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28993DB81BF1C966000892E0 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		286CDEC41BF1CB5300A0A813 /* FZRRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRRulerView.h; sourceTree = "<group>"; };
+		286CDEC51BF1CB5300A0A813 /* FZRRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRRulerView.m; sourceTree = "<group>"; };
+		286CDEC71BF1CB7400A0A813 /* FZRRulerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRRulerScrollView.h; sourceTree = "<group>"; };
+		286CDEC81BF1CB7400A0A813 /* FZRRulerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRRulerScrollView.m; sourceTree = "<group>"; };
 		28993DAE1BF1C966000892E0 /* MeasuringRuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeasuringRuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28993DB21BF1C966000892E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28993DB41BF1C966000892E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286CDEC31BF1CAE800A0A813 /* 测量尺 */ = {
+			isa = PBXGroup;
+			children = (
+				286CDEC41BF1CB5300A0A813 /* FZRRulerView.h */,
+				286CDEC51BF1CB5300A0A813 /* FZRRulerView.m */,
+				286CDEC71BF1CB7400A0A813 /* FZRRulerScrollView.h */,
+				286CDEC81BF1CB7400A0A813 /* FZRRulerScrollView.m */,
+			);
+			path = "测量尺";
+			sourceTree = "<group>";
+		};
 		28993DA51BF1C966000892E0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +118,7 @@
 		28993DB01BF1C966000892E0 /* MeasuringRuler */ = {
 			isa = PBXGroup;
 			children = (
+				286CDEC31BF1CAE800A0A813 /* 测量尺 */,
 				28993DB41BF1C966000892E0 /* AppDelegate.h */,
 				28993DB51BF1C966000892E0 /* AppDelegate.m */,
 				28993DB71BF1C966000892E0 /* ViewController.h */,
@@ -207,6 +225,7 @@
 				TargetAttributes = {
 					28993DAD1BF1C966000892E0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7MVS3B9RMY;
 					};
 					28993DC61BF1C966000892E0 = {
 						CreatedOnToolsVersion = 7.1;
@@ -270,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286CDEC61BF1CB5300A0A813 /* FZRRulerView.m in Sources */,
 				28993DB91BF1C966000892E0 /* ViewController.m in Sources */,
 				28993DB61BF1C966000892E0 /* AppDelegate.m in Sources */,
+				286CDEC91BF1CB7400A0A813 /* FZRRulerScrollView.m in Sources */,
 				28993DB31BF1C966000892E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -413,10 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MeasuringRuler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.MeasuringRuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MeasuringRuler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.MeasuringRuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +525,7 @@
 				28993DDD1BF1C966000892E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28993DDE1BF1C966000892E0 /* Build configuration list for PBXNativeTarget "MeasuringRulerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +534,7 @@
 				28993DE01BF1C966000892E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28993DE11BF1C966000892E0 /* Build configuration list for PBXNativeTarget "MeasuringRulerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +543,7 @@
 				28993DE31BF1C966000892E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
