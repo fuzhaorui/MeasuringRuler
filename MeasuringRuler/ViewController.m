@@ -78,7 +78,7 @@
 
 #pragma mark FZRRulerViewDelegate
 -(void)getRulerValue:(CGFloat)rulerValue withScrollRulerView:(FZRRulerView *)rulerView{
-    _valueLable.text=[NSString stringWithFormat:@"%f.2",rulerValue];
+    _valueLable.text=[NSString stringWithFormat:@"%.2f",rulerValue];
 //    NSLog(@"rulerValue %f",rulerValue);
 }
 
