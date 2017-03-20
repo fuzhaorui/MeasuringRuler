@@ -48,7 +48,7 @@
     valueLable.font=[UIFont systemFontOfSize:18];
     valueLable.frame=CGRectMake(20, 60, 150, 80);
     valueLable.textColor=[UIColor blackColor];
-    valueLable.text=@"0.5";
+    valueLable.text=@"5.00";
     [self.view  addSubview:valueLable];
 }
 
@@ -78,7 +78,7 @@
 
 #pragma mark FZRRulerViewDelegate
 -(void)getRulerValue:(CGFloat)rulerValue withScrollRulerView:(FZRRulerView *)rulerView{
-    _valueLable.text=[NSString stringWithFormat:@"%f",rulerValue];
+    _valueLable.text=[NSString stringWithFormat:@"%f.2",rulerValue];
 //    NSLog(@"rulerValue %f",rulerValue);
 }
 
